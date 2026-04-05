@@ -5,31 +5,11 @@ description: Use when optimizing a website or developer tool for AI search visib
 
 # LLM SEO & AI Agent Discoverability
 
+## Overview
+
 Add files, metadata, and content patterns that help AI agents, LLM crawlers, and AI-powered search engines discover, understand, recommend, and integrate with a website or developer tool.
 
 ## Workflow
-
-```dot
-digraph llm_seo {
-    "Audit current state" [shape=box];
-    "Has API/SDK/MCP?" [shape=diamond];
-    "Phase 1: Core SEO" [shape=box];
-    "Phase 2: LLM files" [shape=box];
-    "Phase 3: Structured data + security.txt" [shape=box];
-    "Phase 4: Agent & API discovery" [shape=box];
-    "Phase 5: Measurement" [shape=box];
-    "Verify all endpoints" [shape=doublecircle];
-
-    "Audit current state" -> "Has API/SDK/MCP?";
-    "Has API/SDK/MCP?" -> "Phase 1: Core SEO" [label="note for Phase 4"];
-    "Phase 1: Core SEO" -> "Phase 2: LLM files";
-    "Phase 2: LLM files" -> "Phase 3: Structured data + security.txt";
-    "Phase 3: Structured data + security.txt" -> "Phase 4: Agent & API discovery" [label="if API/SDK/MCP"];
-    "Phase 3: Structured data + security.txt" -> "Phase 5: Measurement" [label="if no API"];
-    "Phase 4: Agent & API discovery" -> "Phase 5: Measurement";
-    "Phase 5: Measurement" -> "Verify all endpoints";
-}
-```
 
 ### Audit
 
