@@ -1,0 +1,11 @@
+{
+  "name": "llm-seo",
+  "description": "Optimize websites for AI search visibility, LLM citations, and agent discoverability",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nico Acosta"
+  },
+  "homepage": "https://github.com/NicoAcosta/llm-seo",
+  "repository": "https://github.com/NicoAcosta/llm-seo",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@nicoacosta/llm-seo",
+  "version": "1.0.0",
+  "description": "Agent skill: Optimize websites for AI search visibility, LLM citations, and agent discoverability",
+  "keywords": [
+    "agent-skill",
+    "llm-seo",
+    "ai-search",
+    "llms-txt",
+    "structured-data",
+    "agent-discoverability"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicoAcosta/llm-seo.git"
+  },
+  "homepage": "https://github.com/NicoAcosta/llm-seo"
+}
